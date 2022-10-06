@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.galeria{
+    background-color: aquamarine;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.imagen{
+    width: 300px;
+}
