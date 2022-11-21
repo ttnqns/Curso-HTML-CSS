@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Elementos de Interés en Bootstrap</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="bg-light p-5 rounded-3">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold">Título del Jumbotron</h1>
+          <p class="col-md-8 fs-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+            tenetur voluptate doloribus assumenda cum, eligendi provident
+            incidunt quas pariatur, magni sequi quasi vel totam ducimus eum
+            optio sed, iusto iure.
+          </p>
+          <button
+            class="btn btn-primary btn-lg"
+            data-bs-toggle="modal"
+            data-bs-target="#modal-ejemplo"
+          >
+            Botón
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" data-bs-backdrop="static" id="modal-ejemplo">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <h4 class="modal-header">Título del modal</h4>
+          <div class="modal-body">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta
+              libero sed possimus maiores eum recusandae.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">
+              Cerrar
+            </button>
+            <button class="btn btn-primary">Aceptar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container pt-4">
+      <form action="">
+        <div class="mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Nombre"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="telefono" class="form-label">Teléfono</label>
+          <input
+            type="number"
+            class="form-control"
+            id="telefono"
+            placeholder="Teléfono"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="mensaje" class="form-label">Text Area</label>
+          <textarea class="form-control" id="mensaje" rows="3"></textarea>
+        </div>
+      </form>
+
+      <div class="container pt-4">
+        <div class="card" style="width: 20rem">
+          <div class="card-body">
+            <h5 class="card-title">Tatiana Quiñones</h5>
+            <p class="card-text">
+              Soy técnico universitaria en informática, actualmente estoy
+              trabajando en un proyecto web y gracias a bootcamp, he podido
+              afinar mis habilidades previas.
+            </p>
+          </div>
+          <div class="card-footer">
+            <p class="card-text">tatianaqog@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
